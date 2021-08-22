@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coinbase Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <!-- header -->
+      <div class="nav-header">
+        <a href="#" class="logo">
+          <img src="./coinlogo.svg" alt="" width="50%">
+        </a>
+      </div>
+      <!-- links -->
+      <div class="nav-links">
+        <a href="#" class="nav-link">Prices</a>
+        <a href="#" class="nav-link">Learn</a>
+        <a href="#" class="nav-link">Individuals</a>
+        <a href="#" class="nav-link">Business</a>
+        <a href="#" class="nav-link">Developers</a>
+        <a href="#" class="nav-link">Company</a>
+      </div>
+      <div class="end">
+        <span class="endspan">
+          <a href="#" class="signin">Sign in</a>
+          <button class="getnav">Get Started</button>
+        </span>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Section 2 -->
+  <main>
+    <span class="section2">
+      <span class="leftside">
+        <a href="#" class="jumpstart">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="btclogo">
+            <path d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z" fill="#1652F0"></path>
+            <path
+              d="M17.274 10.515c.235-1.572-.962-2.417-2.599-2.981l.531-2.13-1.296-.323-.517 2.074c-.34-.086-.69-.165-1.039-.245l.521-2.087L11.58 4.5l-.53 2.13c-.283-.065-.56-.128-.829-.196l.002-.007-1.788-.446-.345 1.385s.962.22.942.234c.525.13.62.478.603.754L9.03 10.78c.036.01.083.023.135.043l-.137-.034-.848 3.4c-.064.158-.227.398-.595.307.014.019-.941-.235-.941-.235L6 15.745l1.688.42c.313.08.62.162.923.239l-.537 2.154 1.296.322.53-2.13c.355.096.698.184 1.034.268l-.53 2.121 1.297.323.536-2.15c2.211.419 3.873.25 4.573-1.75.564-1.61-.028-2.538-1.191-3.144.847-.195 1.485-.752 1.655-1.903zm-2.963 4.153c-.4 1.61-3.11.74-3.99.522l.713-2.854c.879.22 3.697.654 3.277 2.332zm.402-4.176c-.365 1.464-2.621.72-3.353.537l.645-2.587c.731.182 3.089.522 2.708 2.05z"
+              fill="#fff"></path>
+          </svg>
+          <p class="start">Jump start your portfolio</p>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="none" class="arrow">
+            <path d="M0 7h12.17l-3.28 3.28 1.41 1.41L16 6 10.3.31 8.89 1.72 12.17 5H0v2z" fill="#1652F0"></path>
+          </svg>
+        </a>
+        <h1 class="jump">Jump start your crypto portfolio</h1>
+        <p class="cointext">
+          Coinbase is the easiest place to buy and sell cryptocurrency. Sign up
+          and get started today.
+        </p>
+        <span class="twobuttons">
+          <input type="email" placeholder="Email address" class="emailtext" />
+          <button class="getstarted">Get Started</button>
+        </span>
+      </span>
+      <span class="right-side">
+        <img src="./result.png" alt="Image of a phone" class="phoneimage" />
+      </span>
+    </span>
+
+    <!-- SEction 2 end -->
+    <!-- section 3 -->
+    <div class="section3">
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Change</th>
+          <th>Chart</th>
+          <th>Trade</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td class="tdata">
+            <span>
+              <img src="./btc.png" alt="" class="tableicons">
+              <p class="inp">Bitcoin
+              <p class="inplogo">BTC</p>
+              </p>
+            </span>
+          </td>
+          <td>GH&#8373 278,717.96</td>
+          <td class="change">+0.51%</td>
+          <td><img src="./bar.png" alt="" class="chartbar"></td>
+          <td><button class="buy">Buy</button></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="tdata">
+            <span>
+              <img src="./eth.png" alt="" class="tableicons">
+              <p class="inp">Ethereum
+              <p class="inplogo">ETH</p>
+              </p>
+            </span>
+          </td>
+          <td>GH&#8373 19,422.12</td>
+          <td class="change">+1.57%</td>
+          <td><img src="./bar.png" alt="" class="chartbar"></td>
+          <td><button class="buy">Buy</button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="tdata">
+            <span> <img src="./bitcash.png" alt="" class="tableicons">
+              <p class="inp">Bitcoin Cash
+              <p class="inplogo">BCH</p>
+              </p>
+            </span>
+          </td>
+          <td>GH&#8373 278,717.96</td>
+          <td class="num-neg">-0.51%</td>
+          <td><img src="./bar.png" alt="" class="chartbar"></td>
+          <td><button class="buy">Buy</button></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="tdata"><span><img src="./litecoin.png" alt="" class="tableicons">
+              <p class="inp">Litecoin
+              <p class="inplogo">LTC</p>
+              </p>
+            </span></td>
+          <td>GH&#8373 278,717.96</td>
+          <td class="change">+1.32%</td>
+          <td><img src="./bar.png" alt="" class="chartbar"></td>
+          <td><button class="buy">Buy</button></td>
+        </tr>
+      </table>
+    </div>
+    <!-- section 3 end -->
+    <!-- Section 4 -->
+    <span class="section4">
+      <span class="left-side2">
+        <h1 class="earnup">Earn up to $29 worth of crypto</h1>
+        <p class="cointext2">
+          Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself.
+        </p>
+        <button class="getstarted2">Start Earning</button>
+      </span>
+      <span class="right-side2">
+        <div class="inner">
+          <span class="earn2"> Clover Finance</span>
+          <span class="earn3" style=" color: rgb(40, 133, 81);"> Earn &dollar;3 CLV</span>
+        </div>
+        <div class="inner">
+          <span class="earn2"> The Graph</span>
+          <span class="earn3" style=" color: rgb(40, 133, 81);"> Earn &dollar;4 GRT</span>
+        </div>
+        <div class="inner">
+          <span class="earn2">Amp</span>
+          <span class="earn3" style=" color: rgb(40, 133, 81);"> Earn &dollar;3 AMP</span>
+        </div>
+        <div class="inner">
+          <span class="earn2"> Stellar Lumens</span>
+          <span class="earn3" style=" color: rgb(40, 133, 81);"> Earn &dollar;10 CLV</span>
+        </div>
+      </span>
+    </span>
+    <!-- Section 4 end -->
+    <!-- section 5 -->
+    <div class="section5">
+      <h2 class="create">Create your cryptocurrency portfolio today</h2>
+      <p class="variety">Coinbase has a variety of features that make it the best place to start trading</p>
+    </div>
+    <!-- Section 6 -->
+    <div class="section6">
+      <div class="leftside3">
+        <div class="image1">
+          <svg width="30" height="32" viewBox="0 0 30 32">
+            <g fill="none" fill-rule="evenodd">
+              <path fill="#D4EEFF" d="M10 32h10V10H10z"></path>
+              <path fill="#1752F0" d="M20 32h10V0H20z"></path>
+              <path fill="#55B4FC" d="M0 32h10V19H0z"></path>
+            </g>
+          </svg>
+          <div class="image12">
+            <h3 class="t1">Manage your portfolio</h3>
+            <p>Buy and sell popular digital currencies, keep track of them in one place.</p>
+          </div>
+        </div>
+
+        <div class="image1">
+          <svg width="36" height="38" viewBox="0 0 36 38">
+            <g fill="none" fill-rule="evenodd">
+              <path
+                d="M17.813 9.5a2.375 2.375 0 002.375-2.375v-4.75a2.375 2.375 0 00-4.75 0v4.75A2.375 2.375 0 0017.811 9.5M29.688 9.5a2.375 2.375 0 002.375-2.375v-4.75a2.375 2.375 0 00-4.75 0v4.75A2.375 2.375 0 0029.688 9.5"
+                fill="#D4EEFF"></path>
+              <path fill="#D4EEFF" d="M0 38h35.625V4.75H0z"></path>
+              <path fill="#55B4FC" d="M0 11.875h35.625V4.75H0z"></path>
+              <path
+                d="M5.938 9.5a2.375 2.375 0 002.375-2.375v-4.75a2.375 2.375 0 00-4.75 0v4.75A2.375 2.375 0 005.937 9.5"
+                fill="#D4EEFF"></path>
+              <path
+                d="M27.313 4.75v2.375a2.375 2.375 0 004.75 0V4.75h-4.75zM5.938 9.5a2.375 2.375 0 002.375-2.375V4.75h-4.75v2.375A2.375 2.375 0 005.937 9.5"
+                fill="#1752F0"></path>
+              <path
+                d="M17.813 9.5a2.375 2.375 0 002.375-2.375v-4.75a2.375 2.375 0 00-4.75 0v4.75A2.375 2.375 0 0017.811 9.5"
+                fill="#D4EEFF"></path>
+              <path d="M17.813 9.5a2.375 2.375 0 002.375-2.375V4.75h-4.75v2.375A2.375 2.375 0 0017.811 9.5"
+                fill="#1752F0"></path>
+              <path fill="#FFF" d="M4.75 34.438h26.125V11.875H4.75z"></path>
+              <path fill="#1752F0" d="M12.69 26.329l3.359 3.359L26.125 19.61l-3.358-3.359z"></path>
+              <path fill="#1752F0" d="M16.049 29.688l3.359-3.36-6.244-6.243-3.359 3.36z"></path>
+            </g>
+          </svg>
+          <div class="image12">
+            <h3 class="t1">Recurring buys</h3>
+            <p>invest in cryptocurrency slowly over time by scheduling buys daily,weekly or monthly.</p>
+          </div>
+        </div>
+        <div class="image1">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M36 2.25H0v31.5h36V2.25z" fill="#D4EEFF"></path>
+            <path
+              d="M28.125 36H7.875a1.128 1.128 0 01-1.125-1.125V1.125C6.75.506 7.256 0 7.875 0h20.25c.618 0 1.125.506 1.125 1.125v33.75c0 .619-.507 1.125-1.125 1.125z"
+              fill="#56B4FC"></path>
+            <path d="M29.25 2.25H6.75v31.5h22.5V2.25z" fill="#1652F0"></path>
+            <path d="M23 15.137L21.889 14l-6.667 6.822 1.11 1.137L23 15.137z" fill="#fff"></path>
+            <path d="M16.334 22l1.11-1.137-3.333-3.411-1.11 1.137L16.333 22z" fill="#fff"></path>
+            <path d="M23.625 3.375h-11.25a1.128 1.128 0 01-1.124-1.125V1.125h13.5V2.25c0 .619-.507 1.125-1.126 1.125z"
+              fill="#56B4FC"></path>
+            <path
+              d="M15.75 32.063c0 .337.226.562.563.562h3.375c.338 0 .563-.225.563-.562 0-.338-.226-.563-.563-.563h-3.375c-.337 0-.562.225-.562.563z"
+              fill="#fff"></path>
+          </svg>
+          <div class="image12">
+            <h3 class="tw">Mobile apps</h3>
+            <p>Stay on top of markets with the Coinbase app for <a href="#">Android</a> or <a href="#">iOS</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="sideimage2">
+        <img src="./sideimage2.webp" alt="sideimage2" width="700px">
+      </div>
+    </div>
+    </div>
+    <!-- Section 7 -->
+    <div class="section5">
+      <h2 class="create">The most trusted cryptocurrency platform</h2>
+      <p class="variety">Here are a few reasons why you should choose Coinbase</p>
+    </div>
+    <div class="middle">
+      <div class="image3-1">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+          <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
+          <path d="M64 10H0v48h64V10z" fill="#56B4FC"></path>
+          <path d="M56 10H8v40h48V10z" fill="#1652F0"></path>
+          <path d="M10 16H6v8h4v-8zM10 36H6v8h4v-8z" fill="#1652F0"></path>
+          <path d="M64 58h-8v6h8v-6zM8 58H0v6h8v-6z" fill="#56B4FC"></path>
+          <path
+            d="M41.19 20.81c-5.07-5.07-13.32-5.07-18.38 0-5.06 5.07-5.07 13.32 0 18.38 2.53 2.53 5.86 3.8 9.19 3.8 3.33 0 6.66-1.27 9.19-3.8 5.07-5.07 5.07-13.31 0-18.38zM32 19c2.5 0 5 .85 7.04 2.55l-2.85 2.85A6.99 6.99 0 0032 23c-1.53 0-2.98.5-4.19 1.4l-2.85-2.85A11.03 11.03 0 0132 19zm3.54 14.54c-.95.94-2.2 1.46-3.54 1.46-1.34 0-2.59-.52-3.54-1.46A4.952 4.952 0 0127 30c0-1.33.52-2.59 1.46-3.54.94-.95 2.2-1.46 3.54-1.46 1.34 0 2.59.52 3.54 1.46.95.94 1.46 2.21 1.46 3.54s-.52 2.59-1.46 3.54zM23.55 22.96l2.85 2.85A6.99 6.99 0 0025 30c0 1.53.5 2.98 1.4 4.19l-2.85 2.85a11.018 11.018 0 010-14.08zm1.41 15.49l2.85-2.85a6.969 6.969 0 008.38 0l2.85 2.85a11.018 11.018 0 01-14.08 0zm15.49-1.41l-2.85-2.85c.9-1.2 1.4-2.65 1.4-4.19 0-1.53-.5-2.98-1.4-4.19l2.85-2.85a11.018 11.018 0 010 14.08z"
+            fill="#fff"></path>
+        </svg>
+        <h3>Secure storage</h3>
+        <p>We store the vast majority of the digital assets in secure offline storage.</p>
+        <a href="#"> Learn how Coinbase keeps your funds safe and secure </a>
+      </div>
+
+      <div class="image3-1">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+          <path d="M56 56h-8v8h8c4.42 0 8-3.58 8-8h-8z" fill="#BFE9FF"></path>
+          <path d="M48 56V0H0v56c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#56B4FC"></path>
+          <path d="M48 56H0c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#1652F0"></path>
+          <path
+            d="M40 30H8v2h32v-2zM40 36H8v2h32v-2zM40 42H8v2h32v-2zM32 48H16v2h16v-2zM23.5 24.66l-3.24-5.92-5.92-3.24 5.92-3.24 3.24-5.92 3.24 5.92 5.92 3.24-5.92 3.24-3.24 5.92zm-4.99-9.16l3.22 1.76 1.76 3.22 1.76-3.22 3.22-1.76-3.22-1.76-1.76-3.22-1.76 3.22-3.22 1.76z"
+            fill="#fff"></path>
+        </svg>
+        <h3>Protected by insurance</h3>
+        <p class="midtext">Coinbase maintains crypto insurance and all USD cash balances are covered by FDIC insurance,
+          up to a maximum of $250,000.</p>
+        <a href="#" class="a2">Learn how your crypto is covered by our insurance policy </a>
+      </div>
+
+      <div class="image3-1">
+        <svg width="56" height="64" viewBox="0 0 56 64" fill="none">
+          <path d="M56 0H24v64h32V0z" fill="#BFE9FF"></path>
+          <path d="M0 8v28c0 13.25 24 24 24 24s24-10.75 24-24V8H0z" fill="#56B4FC"></path>
+          <path d="M24 8v52s24-10.75 24-24V8H24z" fill="#1652F0"></path>
+          <path
+            d="M7 15v21c0 4.92 8.57 11.72 16.53 15.97l.47.25.47-.25C32.43 47.72 41 40.92 41 36V15H7zm32 2v6H9v-6h30zM24 49.95C15.55 45.35 9 39.28 9 36V25h30v11c0 3.28-6.55 9.35-15 13.95z"
+            fill="#fff"></path>
+        </svg>
+        <h3>Industry best practices</h3>
+        <p>Coinbase supports a variety of the most popular digital currencies.</p>
+        <a href="#">Learn how we implement industry best practices for account security </a>
+      </div>
+    </div>
+    <!-- Section 8 -->
+    <div class="section8">
+      <div>
+        <h2>&dollar;462B</h2>
+        <p>Quarterly volume traded</p>
+      </div>
+      <div>
+        <h2>100&plus;</h2>
+        <p>Countries supported</p>
+      </div>
+      <div>
+        <h2>68&plus;M</h2>
+        <p>Verified users</p>
+      </div>
+    </div>
+    <!-- Section 9 -->
+    <div class="section9">
+      <h2>Get started in a few minutes</h2>
+      <p>Coinbase supports a variety of the most popular digital currencies.</p>
+
+      <div class="svgimages2">
+        <div class="svg2">
+          <svg width="64" height="60" viewBox="0 0 64 60" fill="none">
+            <path d="M32 16a8 8 0 100-16 8 8 0 000 16zM32 20c-11.05 0-20 7.16-20 16v18h40V36c0-8.84-8.95-16-20-16z"
+              fill="#56B4FC"></path>
+            <path d="M64 36H0v24h64V36z" fill="#BFE9FF"></path>
+            <path d="M52 36H12v24h40V36z" fill="#1652F0"></path>
+            <path d="M33 42h-2v12h2V42z" fill="#fff"></path>
+            <path d="M38 49v-2H26v2h12z" fill="#fff"></path>
+          </svg>
+
+          <h3>Create an account</h3>
+        </div>
+        <div class="horibar"></div>
+        <div class="svg2">
+          <svg width="65" height="56" viewBox="0 0 65 56" fill="none">
+            <path d="M57.03 20h-50v24h50V20z" fill="#BFE9FF"></path>
+            <path
+              d="M60.03 52v-4h-8V16.06L64 16.1l.01-4.1L32.06 0 .01 12 0 15.9l12.03.04V48h-8v4h-4v4h64v-4h-4zm-16-4h-8V16.01l8 .03V48zm-24-32.04l8 .03V48h-8V15.96z"
+              fill="#56B4FC"></path>
+            <path d="M52.03 20h-40v24h40V20z" fill="#1652F0"></path>
+            <path
+              d="M36.41 34.38c0-2.34-1.42-3.12-4.17-3.5-2.03-.29-2.42-.77-2.42-1.72 0-.9.69-1.54 2.01-1.54 1.34 0 2.04.52 2.26 1.75h1.99c-.19-1.86-1.26-2.96-3.06-3.28V24h-2v2.05c-1.98.28-3.26 1.6-3.26 3.29 0 2.19 1.32 3.04 4.12 3.42 1.9.31 2.44.72 2.44 1.8s-.92 1.8-2.21 1.8c-1.98 0-2.45-.98-2.6-2.16h-2.09c.14 1.94 1.2 3.4 3.61 3.72V40h2v-2.08c2.06-.33 3.38-1.77 3.38-3.54z"
+              fill="#fff"></path>
+          </svg>
+          <h3>Link your bank account</h3>
+        </div>
+        <div class="horibar"></div>
+        <div class="svg2">
+          <svg width="61" height="56" viewBox="0 0 61 56" fill="none">
+            <path
+              d="M40 40.5v-.99c0-.89-.59-1.68-1.45-1.92l-9.21-2.63a7.975 7.975 0 00-6.31.83L16 40v12h15.65c2.88 0 5.73-.52 8.43-1.53L60 43c.9-2.26-.93-4.67-3.35-4.39L40 40.5z"
+              fill="#56B4FC"></path>
+            <path d="M16 36H0v20h16V36z" fill="#BFE9FF"></path>
+            <path d="M16 40H0v12h16V40z" fill="#1652F0"></path>
+            <path d="M28 20c5.523 0 10-4.477 10-10S33.523 0 28 0 18 4.477 18 10s4.477 10 10 10z" fill="#56B4FC"></path>
+            <path d="M48 36c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z" fill="#1652F0">
+            </path>
+            <path d="M32 9h-3V6h-2v3h-3v2h3v3h2v-3h3V9zM52 27v-2h-8v2h8z" fill="#fff"></path>
+          </svg>
+
+          <h3>Start buying & selling</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Section 10 -->
+    <span class="section10">
+      <span class="left-side2">
+        <h1 class="earnup">Earn up to $29 worth of crypto</h1>
+        <p class="cointext2">
+          Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself.
+        </p>
+        <button class="getstarted2">Start Earning</button>
+      </span>
+      <span class="right-side2">
+        <div class="innerimage">
+        </div>
+      </span>
+    </span>
+    <!-- Section10 -->
+    <div class="section11">
+      <div class="sec10">
+        <div class="sec10-1">
+          <a href="#"><img src="./coinlogo.svg" alt="" width="40%"></a>
+          <select aria-label="Language selector" class="langSel">
+            <option value="de">Deutsch</option>
+            <option value="en" selected="">English</option>
+            <option value="es">Español - España</option>
+            <option value="es-LA">Español - América Latina</option>
+            <option value="fr">Français - France</option>
+            <option value="it">Italiano</option>
+            <option value="ko">한국어</option>
+            <option value="pl">Polski</option>
+            <option value="pt">Português - Brasil</option>
+            <option value="pt-PT">Português - Portugal</option>
+            <option value="ru">Pусский</option>
+            <option value="th">ไทย</option>
+            <option value="tr">Türkçe</option>
+          </select>
+          <p class="blog2">&copy;2021 Coinbase</p>
+          <p class="blog2">
+            <a href="#">Blog</a>&bullet;
+            <a href="#">Twitter</a>&bullet;
+            <a href="#">Facebook</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="wholesec">
+        <div class="sec11">
+          <div class="Sub">
+            <h3>Company</h3>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Affiliates</a>
+            <a href="#">Blog</a>
+            <a href="#">Press</a>
+            <a href="#">Investors</a>
+            <a href="#">Legal & privacy</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+          <div class="Sub">
+            <h3>Learn</h3>
+            <a href="#">Browse crypto Prices</a>
+            <a href="#">Crypto basics</a>
+            <a href="#">Tips & tutorials</a>
+            <a href="#">Market updates</a>
+            <a href="#">What is Bitcoin?</a>
+            <a href="#">What is crypto</a>
+            <a href="#">What is a blockchain</a>
+            <a href="#">How to setup a crypto wallet</a>
+            <a href="#">How to send Crypto</a>
+            <a href="#">Taxes</a>
+          </div>
+        </div>
+        <div class="sec12">
+          <div class="Sub">
+            <h3>Individuals</h3>
+            <a href="#">Buy & sell</a>
+            <a href="#">Earn free crypto</a>
+            <a href="#">Wallet</a>
+            <a href="#">Card</a>
+          </div>
+          <div class="Sub">
+            <h3>Businesses</h3>
+            <a href="#">Prime</a>
+            <a href="#">Custody</a>
+            <a href="#">Asset Hub</a>
+            <a href="#">Commerce</a>
+            <a href="#">Developers</a>
+          </div>
+          <div class="Sub">
+            <h3>Developers</h3>
+            <a href="#">Coinbase Cloud</a>
+            <a href="#">Connect</a>
+            <a href="#">Commerce</a>
+            <a href="#">Pro</a>
+            <a href="#">Bison Trails</a>
+            <a href="#">WalletLink</a>
+            <a href="#">Rosetta</a>
+            <a href="#">USDC</a>
+          </div>
+        </div>
+        <div class="sec13">
+          <div class="Sub">
+            <h3>Support</h3>
+            <a href="#">Help Center</a>
+            <a href="#">Contact us</a>
+            <a href="#">Create account</a>
+            <a href="#">ID verification</a>
+            <a href="#">Acoount information</a>
+            <a href="#">Payment methods</a>
+            <a href="#">Account access</a>
+            <a href="#">Supported crypto</a>
+            <a href="#">Supported countries</a>
+            <a href="#">Status</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </main>
+</body>
+
+</html>
